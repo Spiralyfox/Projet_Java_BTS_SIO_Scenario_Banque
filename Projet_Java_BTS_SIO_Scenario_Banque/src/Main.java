@@ -4,7 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
         CompteBancaire c = new CompteBancaire();
-        c.solde = -500;
-        System.out.println(c.solde);
+
+        c.changerSolde(-500);
+
+        System.out.println(c.getSolde());
     }
 }

@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        CompteBancaire c = new CompteBancaire();
+        CompteBancaire c = new CompteBancaire("Dupont");
 
         c.changerSolde(-500);
 

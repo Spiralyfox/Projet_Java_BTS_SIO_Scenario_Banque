@@ -1,5 +1,5 @@
 class CompteBancaire {
-    public float solde;
+    private float solde;
 
     public CompteBancaire(){
         solde=0;

@@ -20,4 +20,8 @@ class CompteBancaire {
             this.nom = nom;
         }
     }
+
+    public String getNom() {
+        return nom;
+    }
 }

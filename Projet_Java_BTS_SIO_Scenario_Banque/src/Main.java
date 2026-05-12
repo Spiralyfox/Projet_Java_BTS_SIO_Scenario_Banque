@@ -7,6 +7,7 @@ public class Main {
 
         c.changerSolde(-500);
 
+        System.out.println(c.getNom());
         System.out.println(c.getSolde());
     }
 }
